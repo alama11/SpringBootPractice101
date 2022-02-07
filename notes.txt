@@ -1,0 +1,4 @@
+package -> controller   ex: HelloController.java      # Web requests land here
+    package -> service      ex: HelloService.java     # process your data here
+        package -> dao          ex: HelloDao.java     # prepare you data for persistence
+            package -> repo         ex: HelloRepo.java   #save the data to the database
